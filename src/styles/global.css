@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Open Sans";
+}
+
+/** heading text in hero section */
+#main-heading {
+  font-family: "DM Serif Text", serif;
+}
