@@ -3,7 +3,7 @@ import * as React from "react";
 
 export default function Header() {
   return (
-    <header className="z-10">
+    <header className="lg:fixed lg:top-0 lg:left-0 lg:right-0 bg-white">
       <nav>
         <ul className="border-b-2 flex h-20 justify-around items-center">
           <li>

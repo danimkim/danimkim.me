@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans";
 }
 
-/** heading text in hero section */
-#main-heading {
+/** bold heading text */
+.main-heading {
   font-family: "DM Serif Text", serif;
+  font-weight: 500;
 }
