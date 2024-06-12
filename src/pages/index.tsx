@@ -1,13 +1,17 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import HeroSection from "../components/HeroSection";
-import AboutSection from "../components/AboutSection";
+import HeroSection from "../components/Hero";
+import AboutSection from "../components/About";
+import ProjectSection from "../components/Project";
+import ContactSection from "../components/Contact/ContactSection";
 
 export default function IndexPage() {
   return (
     <Layout>
       <HeroSection />
       <AboutSection />
+      <ProjectSection />
+      <ContactSection />
     </Layout>
   );
 }

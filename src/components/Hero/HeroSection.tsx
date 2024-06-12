@@ -1,9 +1,10 @@
 import * as React from "react";
+import CommonSection from "../CommonSection";
 
 export default function HeroSection() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center">
-      <h1 className="main-heading text-9xl">Tina Kim</h1>
+    <CommonSection className="flex flex-col justify-center items-center">
+      <h1 className="main-heading lg:text-8xl">Tina Kim</h1>
       <div className="lg:w-64 mt-16">
         <p className="flex items-center justify-center text-gray-400">
           <span className="relative flex h-3 w-3 mr-1.5">
@@ -24,6 +25,6 @@ export default function HeroSection() {
           Say Hello
         </button>
       </div>
-    </section>
+    </CommonSection>
   );
 }

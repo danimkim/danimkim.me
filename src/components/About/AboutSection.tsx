@@ -1,9 +1,10 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import CommonSection from "../CommonSection";
 
 export default function AboutSection() {
   return (
-    <section className="h-dvh lg:flex lg:max-w-screen-lg lg:mx-auto lg:pt-48">
+    <CommonSection className="items-center">
       <div className="lg:w-8/12">
         <h2 className="main-heading lg:text-7xl lg:mb-14">
           A little bit
@@ -57,10 +58,10 @@ export default function AboutSection() {
         </div>
       </div>
       <StaticImage
-        src="./../images/profile-image.png"
+        src="./../../images/profile-image.png"
         alt="Profile Image"
         className="rounded-lg lg:w-56 lg:h-56 lg:mx-auto"
       />
-    </section>
+    </CommonSection>
   );
 }
