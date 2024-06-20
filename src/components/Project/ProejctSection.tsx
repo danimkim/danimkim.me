@@ -1,6 +1,6 @@
 import * as React from "react";
 import CommonSection from "../CommonSection";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./ProjectCard.component";
 
 export default function ProjectSection() {
   return (
