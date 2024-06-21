@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import { Layout } from "../components";
 import { About, Contact, Hero, Project } from "../containers";
 
 export default function IndexPage() {

@@ -1,15 +1,16 @@
 import * as React from "react";
 
-export default function Container({
-  children,
-  className,
-}: {
+interface IProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode;
-  className?: string;
-}) {
+}
+
+export default function Container(props: IProps) {
+  const { children, ...attr } = props;
+
   return (
     <section
-      className={`h-screen lg:flex lg:max-w-screen-lg lg:mx-auto ${className} border border-black`}
+      {...attr}
+      className={`h-screen lg:flex lg:max-w-screen-lg lg:mx-auto border border-black ${attr.className}`}
     >
       {children}
     </section>

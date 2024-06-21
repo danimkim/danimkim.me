@@ -1,5 +1,6 @@
 import * as React from "react";
-import Container from "./../../components/Container";
+import { Container } from "./../../components";
+import { Button } from "../../components";
 
 export default function Hero() {
   return (
@@ -18,12 +19,9 @@ export default function Hero() {
           React, Next.js, and Typescript. I love to create visually stunning
           products that provide exceptional user experiences.
         </p>
-        <button
-          type="button"
-          className="w-full h-11 mt-10 rounded-lg bg-black text-white hover:bg-slate-800 transition ease-in-out"
-        >
+        <Button type="button" className="lg:mt-10">
           Say Hello
-        </button>
+        </Button>
       </div>
     </Container>
   );
