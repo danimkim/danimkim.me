@@ -2,6 +2,7 @@
 export const content = [
   "./src/pages/**/*.{js,jsx,ts,tsx}",
   "./src/components/**/*.{js,jsx,ts,tsx}",
+  "./src/containers/**/*.{js,jsx,ts,tsx}",
 ];
 export const theme = {
   extend: {},
