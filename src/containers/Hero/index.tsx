@@ -1,9 +1,9 @@
 import * as React from "react";
-import CommonSection from "../CommonSection";
+import Container from "./../../components/Container";
 
-export default function HeroSection() {
+export default function Hero() {
   return (
-    <CommonSection className="flex flex-col justify-center items-center">
+    <Container className="flex flex-col justify-center items-center">
       <h1 className="main-heading lg:text-8xl">Tina Kim</h1>
       <div className="lg:w-64 mt-16">
         <p className="flex items-center justify-center text-gray-400">
@@ -25,6 +25,6 @@ export default function HeroSection() {
           Say Hello
         </button>
       </div>
-    </CommonSection>
+    </Container>
   );
 }

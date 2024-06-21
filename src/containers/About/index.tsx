@@ -1,10 +1,10 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
-import CommonSection from "../CommonSection";
+import Container from "./../../components/Container";
 
-export default function AboutSection() {
+export default function About() {
   return (
-    <CommonSection className="items-center">
+    <Container className="items-center">
       <div className="lg:w-8/12">
         <h2 className="main-heading lg:text-7xl lg:mb-14">
           A little bit
@@ -62,6 +62,6 @@ export default function AboutSection() {
         alt="Profile Image"
         className="rounded-lg lg:w-56 lg:h-56 lg:mx-auto"
       />
-    </CommonSection>
+    </Container>
   );
 }

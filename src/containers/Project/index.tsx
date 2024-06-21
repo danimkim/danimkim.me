@@ -1,10 +1,10 @@
 import * as React from "react";
-import CommonSection from "../CommonSection";
-import ProjectCard from "./ProjectCard.component";
+import Container from "./../../components/Container";
+import ProjectCard from "./components/ProjectCard";
 
-export default function ProjectSection() {
+export default function Project() {
   return (
-    <CommonSection className="lg:items-center">
+    <Container className="lg:items-center">
       {/* a11y-hidden */}
       <h2 className="hidden">Selected Projects</h2>
 
@@ -14,6 +14,6 @@ export default function ProjectSection() {
         <ProjectCard title="Kiwitter" onClickHandler={() => {}} />
         <ProjectCard title="Project02" onClickHandler={() => {}} />
       </div>
-    </CommonSection>
+    </Container>
   );
 }
